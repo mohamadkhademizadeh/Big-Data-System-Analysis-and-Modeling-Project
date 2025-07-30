@@ -1,0 +1,33 @@
+{
+  "_id": "1467890123456789000",
+  "created_at": {"$date": "2021-02-14T19:22:31Z"},
+  "date_ymd": "2021-02-14",
+  "month_ym": "2021-02",
+  "text": "Vaccination rollout is accelerating! #COVID19 #vaccines",
+  "lang": "en",
+  "user": {
+    "user_id": "1234567",
+    "screen_name": "alice",
+    "name": "Alice Doe",
+    "verified": false
+  },
+  "metrics": {
+    "retweet_count": 10,
+    "favorite_count": 47,
+    "reply_count": 2,
+    "quote_count": 0
+  },
+  "entities": {
+    "hashtags": ["COVID19", "vaccines"],
+    "hashtags_lc": ["covid19", "vaccines"],
+    "mentions": [{"user_id": "7654321", "screen_name": "bob"}]
+  },
+  "place": {
+    "full_name": "Milan, Italy",
+    "country_code": "IT"
+  },
+  "geo": {
+    "type": "Point",
+    "coordinates": [9.19, 45.46]
+  }
+}
